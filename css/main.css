@@ -93,7 +93,7 @@ form input:focus,
 form textarea:focus {
   border-color: #004080;
   outline: none;
-  box-shadow: 0 0 4px #004080;
+  box-shadow: 4px #004080;
 }
 
 form textarea {
@@ -102,11 +102,10 @@ form textarea {
 }
 
 form button {
-  background: #004080;
+  background: #bc0000;
   color: #fff;
   border: none;
   padding: 1rem 1.5rem;
-  text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
   border-radius: 4px;
